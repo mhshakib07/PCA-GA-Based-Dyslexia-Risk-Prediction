@@ -17,8 +17,8 @@ An optimized machine learning pipeline combining Principal Component Analysis (P
 4. **Balancing**: Borderline SMOTE oversampling
 
 ### Feature Selection Pipeline
-# PCA Dimensionality Reduction (196 → 80 features)
-# Genetic Algorithm Selection (80 → 42 features)
+**PCA Dimensionality Reduction (196 → 80 features)**
+**Genetic Algorithm Selection (80 → 42 features)**
 
 ## 📊 **Results** 
 
