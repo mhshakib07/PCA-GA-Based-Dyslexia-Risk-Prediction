@@ -17,19 +17,8 @@ An optimized machine learning pipeline combining Principal Component Analysis (P
 4. **Balancing**: Borderline SMOTE oversampling
 
 ### Feature Selection Pipeline
-```python
 # PCA Dimensionality Reduction (196 → 80 features)
-pca = PCA(n_components=80)
-X_pca = pca.fit_transform(X_scaled)
-
 # Genetic Algorithm Selection (80 → 42 features)
-ga_selector = GeneticSelectionCV(
-    estimator=LogisticRegression(),
-    cv=10,
-    scoring="roc_auc",
-    max_features=42
-)
-ga_selector.fit(X_pca, y)
 
 ## 📊 **Results** 
 
