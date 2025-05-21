@@ -18,6 +18,7 @@ An optimized machine learning pipeline combining Principal Component Analysis (P
 
 ### Feature Selection Pipeline
 **PCA Dimensionality Reduction (196 → 80 features)**
+
 **Genetic Algorithm Selection (80 → 42 features)**
 
 ## 📊 **Results** 
